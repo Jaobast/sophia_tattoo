@@ -1,0 +1,59 @@
+@media (min-width: 1200px){
+    button:hover{
+        background-color: red;
+        color: white;
+        margin: 5px 5px;
+        padding: 15px 40px;
+    }
+}
+
+@media (max-width: 800px){
+
+    #container{
+        height: 100vh;
+        grid-template-areas: 
+        "hi"
+        "sophia"
+        "tattoos";
+    }
+    .hi_container, .sophia_container, .button_container{
+        width: 100vw;
+        padding-left: 0;
+    }
+
+    .hi_container{
+        height: 35vh;
+    }
+
+    h1{
+        top: 90%;
+        left: -5vw;
+        transform: translate(0%, -50%);
+    }
+
+    .sophia_container{
+        font-size: 25px;
+        height: 13vh;
+        line-height: 0.5;
+    }
+
+    @keyframes changeFont {
+        0% { font-family: 'Hatton'; font-size: 22px;}
+        33.32% { font-family: 'Hatton'; font-size: 22px;}
+        33.33% { font-family: 'BricolageGrotesque'; font-size: 25px;}
+        66.65% { font-family: 'BricolageGrotesque'; font-size: 25px;}
+        66.66% { font-family: 'Roslindale'; font-size: 25;}
+        99.99% { font-family: 'Roslindale'; font-size: 25px;}
+        100% { font-family: 'Hatton'; font-size: 25px;}
+    }
+
+    .button_container{
+        margin-top: -80px;
+    }
+
+    button{
+        padding: 10px 30px;
+        font-size: 25px;
+    }
+    
+}
