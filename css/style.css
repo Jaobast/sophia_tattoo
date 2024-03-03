@@ -4,6 +4,7 @@ html{
 }
 
 body{
+    height: -webkit-fill-available;
     color: white;
     width: 100vw;
     height: 100vh;
