@@ -1,5 +1,9 @@
-body{
+html{
+    height: -webkit-fill-available;
     background-color: rgb(0, 0, 0);
+}
+
+body{
     color: white;
     width: 100vw;
     height: 100vh;
