@@ -10,15 +10,17 @@
 @media (max-width: 800px){
 
     #container{
+        margin-left: 0;
         height: -webkit-fill-available;
+        width: 100vw;
         grid-template-areas: 
         "hi"
         "sophia"
         "tattoos";
     }
     .hi_container, .sophia_container, .button_container{
-        width: 100vw;
-        padding-left: 0;
+        width: 80%;
+        padding-left: 10vw;
     }
 
     .hi_container{
@@ -27,7 +29,7 @@
 
     h1{
         top: 80%;
-        left: -5vw;
+        left: 5vw;
         transform: translate(0%, -50%);
     }
 

@@ -19,7 +19,6 @@ body{
     grid-template-areas: 
     "hi sophia sophia sophia sophia"
     "blanko tattoos tattoos tattoos tattoos";
-    height: -webkit-fill-available;
 }
 
 .hi_container{
