@@ -1,0 +1,26 @@
+@media (max-width: 800px){
+    img{
+        width: 60vw;
+        height: auto;
+    }
+
+    @keyframes changeFont {
+        0% { font-family: 'Hatton'; font-size: 22px;}
+        33.32% { font-family: 'Hatton'; font-size: 22px;}
+        33.33% { font-family: 'BricolageGrotesque'; font-size: 22px;}
+        66.65% { font-family: 'BricolageGrotesque'; font-size: 22px;}
+        66.66% { font-family: 'Roslindale'; font-size: 22;}
+        99.99% { font-family: 'Roslindale'; font-size: 22px;}
+        100% { font-family: 'Hatton'; font-size: 22px;}
+    }
+
+    h1{
+        font-size: 22px;
+    }
+
+    .text{
+        position: absolute;
+        left: 13%;
+        top: 28%;
+    }
+}
