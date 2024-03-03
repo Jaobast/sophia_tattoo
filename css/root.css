@@ -1,0 +1,27 @@
+:root {
+    --Bricolage: 'BricolageGrotesque';
+    --Dephiana: 'Dephiana';
+    --Roslindale: 'Roslindale';
+    --Hatton: 'Hatton';
+}
+
+@font-face {
+    font-family: 'BricolageGrotesque';
+    src: url(../fonts/BricolageGrotesque-Regular.ttf);
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: 'Dephiana';
+    src: url(../fonts/Dephiana.ttf);
+  }
+
+  @font-face {
+    font-family: 'Roslindale';
+    src: url(../fonts/Roslindale-DeckNarrowMedium-Testing.ttf);
+  }
+
+  @font-face {
+    font-family: 'Hatton';
+    src: url(../fonts/PPHatton-Ultralight.otf);
+  }
